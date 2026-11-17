@@ -1,0 +1,39 @@
+{
+  "task": "regression",
+  "selected_model": "MLP_64_32",
+  "features": [
+    "Cement (component 1)(kg in a m^3 mixture)",
+    "Blast Furnace Slag (component 2)(kg in a m^3 mixture)",
+    "Fly Ash (component 3)(kg in a m^3 mixture)",
+    "Water  (component 4)(kg in a m^3 mixture)",
+    "Superplasticizer (component 5)(kg in a m^3 mixture)",
+    "Coarse Aggregate  (component 6)(kg in a m^3 mixture)",
+    "Fine Aggregate (component 7)(kg in a m^3 mixture)",
+    "Age (day)"
+  ],
+  "mean": [
+    276.33779516358464,
+    72.54847795163585,
+    57.18549075391181,
+    181.92024182076813,
+    6.103173541963016,
+    973.4639829302986,
+    773.4063726884779,
+    45.473684210526315
+  ],
+  "scale": [
+    103.52337056311941,
+    85.77239435830437,
+    64.90545571018609,
+    20.995599710323724,
+    5.968390359263688,
+    77.62887155975697,
+    79.40968890663164,
+    61.60193489550799
+  ],
+  "positive_class": null,
+  "model_output": "MPa",
+  "target_mean": 35.04312111140762,
+  "target_scale": 15.972343855055865,
+  "selection": "lowest validation loss"
+}
